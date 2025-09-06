@@ -10,9 +10,9 @@ import org.springframework.core.env.Environment;
 public class ToDoConfig {
     private Environment environment;
     
-    public ToDoConfig(Environment environment) {
-        this.environment = environment;
-    }
+//    public ToDoConfig(Environment environment) {
+//        this.environment = environment;
+//    }
     // TODO: Solve MongoDB connection issue. Code below is as book example show the working with Spring Boot 2.x and Java 8
 //    @Bean
 //    @DependsOn("embeddedMongoServer")
