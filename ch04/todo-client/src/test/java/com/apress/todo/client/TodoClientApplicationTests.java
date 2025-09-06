@@ -1,10 +1,10 @@
-package com.apress.todo;
+package com.apress.todo.client;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TodoInMemoryApplicationTests {
+class TodoClientApplicationTests {
     
     @Test
     void contextLoads() {

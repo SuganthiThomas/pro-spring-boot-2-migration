@@ -10,13 +10,11 @@ import java.io.IOException;
 import java.nio.charset.Charset;
 
 public class ToDoErrorHandler extends DefaultResponseErrorHandler {
-
     private Logger log = LoggerFactory.getLogger(ToDoErrorHandler.class);
-
+    
     @Override
     public void handleError(ClientHttpResponse response) throws IOException {
         log.error(response.getStatusCode().toString());
-        log.error(StreamUtils.copyToString(response.getBody(),Charset.defaultCharset()));
+        log.error(StreamUtils.copyToString(response.getBody(), Charset.defaultCharset()));
     }
-
 }
