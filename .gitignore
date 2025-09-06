@@ -1,0 +1,44 @@
+# === Build output ===
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+
+# === Maven ===
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# === Gradle ===
+.gradle/
+**/build/
+gradle-app.setting
+gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# === Eclipse ===
+.project
+.classpath
+.settings/
+bin/
+
+# === VS Code ===
+.vscode/
+
+# === Logs & Temp ===
+logs/
+*.log
+*.tmp
+*.swp
+*.swo
+
+# === Spring Boot ===
+*.pid
