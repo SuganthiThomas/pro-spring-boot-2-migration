@@ -58,7 +58,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-hateoas</artifactId>
-<!--            <version>4.0.0-M3</version>-->
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-core -->
@@ -69,19 +68,12 @@
 <!--            <version>7.0.0-M3</version>-->
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.springframework.hateoas/spring-hateoas -->
-        <!-- This dependency is added because was separated as a module in Spring Boot 3.x.x -->
-        <dependency>
-            <groupId>org.springframework.hateoas</groupId>
-            <artifactId>spring-hateoas</artifactId>
-            <version>3.0.0-M5</version>
-        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-configuration-processor -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
-<!--            <version>4.0.0-M3</version>-->
+
         </dependency>
 
         <dependency>
@@ -104,11 +96,11 @@
             <artifactId>spring-integration-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-restclient</artifactId>
-            <version>4.0.0-M3</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-restclient</artifactId>-->
+
+<!--        </dependency>-->
     </dependencies>
 
 
